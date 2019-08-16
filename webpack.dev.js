@@ -16,7 +16,7 @@ module.exports = {
   },
   
   plugins: [
-    // Ignore fs in /wasm folder
+    // Ignore fs in /wasm folder when starting up, surround fs require/import with try-catch
     new webpack.IgnorePlugin(
       /fs/,
       /wasm$/

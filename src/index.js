@@ -1,3 +1,6 @@
+import fsTester from '../wasm/fsTester';
+fsTester();
+
 // require('normalize.css/normalize.css');
 
 const mozjpeg_enc = require('../wasm/mozjpeg_enc.js');
